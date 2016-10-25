@@ -1,0 +1,28 @@
+body {
+	font-size: 12px;
+}
+.btn {
+	box-sizing: border-box;
+	top: 0;
+	position: relative;
+	outline: none;
+	border: 2px solid #a22;
+	border-radius: 0.2em;
+	border-bottom: 0.4em solid #a22;
+	background-color: #f44;
+	width: 4em;
+	height: 4em;
+}
+
+.btn:hover {
+	top: 0.1em;
+	border-bottom-width: 0.3em;
+	background-color: #f55;
+	height: 3.9em;
+}
+
+.btn:active {
+	top: 0.2em;
+	border-bottom-width: 0.2em;
+	height: 3.8em;
+}
